@@ -22,6 +22,7 @@ document.onkeyup = function (event) {
 
     if (userGuess === computerChoice) {
         wins++;
+        alert("WOW, YOUR A PSYCHIC!!!!");
          restartGame()
     }
     else {
